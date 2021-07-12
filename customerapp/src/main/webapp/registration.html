@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <form action="signup" method="get">
+        Enter your Name:
+        <input type="text" name="cname">
+        <br><br>
+        Enter your Password:
+        <input type="password" name="cpass">
+        <br><br>
+        Choose Gender:
+        <input type="radio" name="cgender" value="Male">Male
+        <input type="radio" name="cgender" value="Female">Female
+        <br><br>
+        Choose Qualification: 
+        <input type="checkbox" name="cqualification" value="BE">BE
+        <input type="checkbox" name="cqualification" value="ME">ME
+        <input type="checkbox" name="cqualification" value="Phd">Phd
+        <input type="checkbox" name="cqualification" value="None">None
+        <br><br>
+        Select State:
+        <select name="cstate">
+            <option value="">Select State</option>
+            <optgroup label="North India">
+            <option value="MH">MH</option>
+            </optgroup>
+            <optgroup label="South India">
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerela">Kerela</option>
+            <option value="AP">AP</option>
+            <option value="Telungana">Telungana</option>
+            </optgroup>
+        </select>
+        <br><br>
+        Enter your Address:
+        <textarea name="caddress" cols="50" rows="10"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+</html>
